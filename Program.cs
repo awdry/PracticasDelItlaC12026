@@ -12,3 +12,9 @@ Console.WriteLine($"edad: {age}");
 Console.WriteLine($"altura: {height}");
 Console.WriteLine($"Peso: {weight}");
 Console.WriteLine($"¿Soy bonita? {impretty}");
+
+//Declara una constante en C# e imprimir el valor.
+
+const double pi = 3.14;
+Console.WriteLine($"El valor de pi es: {pi}");
+pi = 3.14159; 
