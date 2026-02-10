@@ -38,3 +38,10 @@ Console.WriteLine($"Suma= {sum}");
 Console.WriteLine($"Resta= {difference}");
 Console.WriteLine($"Multiplicacion= {product}");
 Console.WriteLine($"Division= {quotient}");
+
+//Declarar un float con valor=10152466.25.
+//Declara un byte que es igual a 5 + el float.
+float Float = 10152466.25f;
+byte bytevalue = (byte)(5 + Float);
+Console.WriteLine($"Valor del float: {Float}");
+Console.WriteLine($"Valor del byte: {bytevalue}");
