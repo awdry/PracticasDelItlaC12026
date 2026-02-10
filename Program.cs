@@ -45,3 +45,6 @@ float Float = 10152466.25f;
 byte bytevalue = (byte)(5 + Float);
 Console.WriteLine($"Valor del float: {Float}");
 Console.WriteLine($"Valor del byte: {bytevalue}");
+
+//Imprimir la fecha y hora del sistema. 
+Console.WriteLine($"Fecha y hora del sistema: {DateTime.Now}");
